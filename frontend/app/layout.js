@@ -1,10 +1,14 @@
 import '../styles/globals.css';
+import { NavBar } from '@/components/componentIndex';
 
 export default function Layout({ children }) {
   return (
     <html lang="en">
       <body>
-        {children}
+        <div>
+          <NavBar />
+          {children}
+        </div>
       </body>
     </html>
   );
