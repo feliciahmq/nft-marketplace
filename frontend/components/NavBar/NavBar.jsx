@@ -102,15 +102,15 @@ const NavBar = () => {
               </div>
             )}
           </div>
-          {/* HelpCenter */}
-          <div className={Style.navbar_container_right_help}>
-            <p onClick={(e) => openMenu(e)}>Help Center</p>
-            {help && (
-              <div className={Style.navbar_container_right_help_box}>
-                <HelpCenter />
-              </div>  
-            )}
-          </div>
+            {/* HelpCenter */}
+            <div className={Style.navbar_container_right_help}>
+              <p onClick={(e) => openMenu(e)}>Help Center</p>
+              {help && (
+                <div className={Style.navbar_container_right_help_box}>
+                  <HelpCenter />
+                </div>  
+              )}
+            </div>
           {/* Notification */}
           <div className={Style.navbar_container_right_notify}>
             <MdNotifications 
@@ -121,7 +121,7 @@ const NavBar = () => {
           </div>
           {/* Create Button */}
           <div className={Style.navbar_container_right_button}>
-            <Button btnText="Create"/>
+            <Button btnName="Create" handleClick={() => {}}/>
           </div>
           {/* User Profile */}
           <div className={Style.navbar_container_right_profile_box}>
@@ -149,7 +149,7 @@ const NavBar = () => {
       {/* Sidebar component - mobile device */}
       {
         openSideMenu && (
-          <div className={Style.SideBar}>
+          <div className={Style.sideBar}>
             <SideBar setOpenSideMenu={setOpenSideMenu} />
           </div>  
         )

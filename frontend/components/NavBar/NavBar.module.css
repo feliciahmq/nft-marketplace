@@ -47,13 +47,11 @@
   grid-template-columns: 1fr 1fr .5fr 1fr .3fr;
   gap: 1rem;
   align-items: center;
-  align-self: flex-end;
 }
 
 .navbar_container_right_discover {
   position: relative;
   cursor: pointer;
-
 }
 
 .navbar_container_right_help {
@@ -63,7 +61,7 @@
 
 .navbar_container_right_discover_box,
 .navbar_container_right_help_box {
-  position: relative;
+  position: fixed;
   padding: 1rem .5rem;
   box-shadow: var(--box-shadow);
   font-size: 1rem;
