@@ -1,10 +1,10 @@
-import React from "react";
-import { NavBar } from '@/components/componentIndex';
+import Style from '@/styles/index.module.css';
+import { HeroSection } from '@/components/componentIndex';
 
 const Index = () => {
   return (
-    <div>
-      Home
+    <div className={Style.homePage}>
+      <HeroSection />
     </div>
   );
 };
