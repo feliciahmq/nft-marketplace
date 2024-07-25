@@ -5,6 +5,7 @@ const Index = () => {
   return (
     <div>
       <NavBar />
+      Home
     </div>
   );
 };
