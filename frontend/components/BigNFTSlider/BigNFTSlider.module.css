@@ -1,6 +1,6 @@
 .bigNFTSlider_box {
-  margin: 0 auto;
   width: 80%;
+  margin: 0 auto;
   padding-bottom: 8rem;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -165,12 +165,20 @@
     width: 90%;
     padding-top: 10rem;
     grid-template-columns: 1fr;
+    grid-template-rows: auto auto; 
     gap: 1rem;
   }
 
   .bigNFTSlider_box_left {
     height: auto;
     padding: 1.5rem;
+    grid-column: 1  / -1;
+    grid-row: 2;
+  }
+
+  .bigNFTSlider_box_right {
+    grid-column: 1 / -1;
+    grid-row: 1; 
   }
 
   .bigNFTSlider_box_left_creator {
