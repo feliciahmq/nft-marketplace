@@ -7,6 +7,7 @@ import {
   Title, 
   Category,
   Filter,
+  NFTCard,
 } from '@/components/componentIndex';
 
 const Index = () => {
@@ -20,6 +21,7 @@ const Index = () => {
         paragraph="Discover the most oustanding NFTs."
       />
       <Filter />
+      <NFTCard />
       <Title 
         heading="Browse by category"
         paragraph="Explore NFTs by the most featured categories."
