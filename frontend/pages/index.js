@@ -3,7 +3,8 @@ import {
   HeroSection, 
   Service, 
   BigNFTSlider, 
-  Subscribe
+  Subscribe,
+  Title
 } from '@/components/componentIndex';
 
 const Index = () => {
@@ -12,6 +13,10 @@ const Index = () => {
       <HeroSection />
       <Service />
       <BigNFTSlider />
+      <Title 
+        heading="Browse by category"
+        paragraph="Explore NFTs by the most featured categories."
+      />
       <Subscribe />
     </div>
   );
