@@ -160,7 +160,7 @@
   border-radius: 5rem;
 }
 
-@media screen and (max-width: 65em) {
+@media screen and (max-device-width: 65em) {
   .bigNFTSlider_box {
     width: 90%;
     padding-top: 10rem;

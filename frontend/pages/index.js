@@ -2,7 +2,8 @@ import Style from '@/styles/index.module.css';
 import { 
   HeroSection, 
   Service, 
-  BigNFTSlider 
+  BigNFTSlider, 
+  Subscribe
 } from '@/components/componentIndex';
 
 const Index = () => {
@@ -11,6 +12,7 @@ const Index = () => {
       <HeroSection />
       <Service />
       <BigNFTSlider />
+      <Subscribe />
     </div>
   );
 };
