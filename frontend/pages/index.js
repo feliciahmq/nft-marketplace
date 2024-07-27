@@ -8,6 +8,7 @@ import {
   Category,
   Filter,
   NFTCard,
+  Collection,
 } from '@/components/componentIndex';
 
 const Index = () => {
@@ -16,6 +17,11 @@ const Index = () => {
       <HeroSection />
       <Service />
       <BigNFTSlider />
+      <Title 
+        heading="New Collections"
+        paragraph="Browse NFTs by collections."
+      />
+      <Collection />
       <Title 
         heading="Featured NFts"
         paragraph="Discover the most oustanding NFTs."
