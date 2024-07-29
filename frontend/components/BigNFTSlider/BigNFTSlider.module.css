@@ -30,6 +30,10 @@
   background-color: var(--main-bg-color);
   border-radius: 2.5rem;
   box-shadow: var(--main-bg-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .bigNFTSlider_box_left_creator {
