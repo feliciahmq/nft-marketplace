@@ -10,6 +10,7 @@ import {
   NFTCard,
   Collection,
   FollowerTab,
+  AudioLive,
 } from '@/components/componentIndex';
 
 const Index = () => {
@@ -18,6 +19,11 @@ const Index = () => {
       <HeroSection />
       <Service />
       <BigNFTSlider />
+      <Title 
+        heading="Audio Collections"
+        paragraph="Discover latest Audio NFTs."
+      />
+      <AudioLive />
       <FollowerTab />
       <Title 
         heading="New Collections"
