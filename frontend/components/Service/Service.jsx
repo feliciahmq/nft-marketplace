@@ -19,7 +19,7 @@ const Service = () => {
           </p>
           <h3>Filter & Discover</h3>
           <p>
-            Connect with wallet, discover, buy NFTs, sell you NFTs for money.
+            Discover unique digital assets that catch your eye and match your interests.
           </p>
         </div>
 
@@ -51,7 +51,7 @@ const Service = () => {
           </p>
           <h3>Start Trading</h3>
           <p>
-            Connect with wallet, discover, buy NFTs, sell you NFTs for money.
+            Begin trading by placing bids on NFTs you want to acquire or listing your own NFTs for sale.
           </p>
         </div>
 
@@ -65,9 +65,9 @@ const Service = () => {
           <p className={Style.service_box_item_step}> 
             <span>Step 4</span>
           </p>
-          <h3>Start Trading</h3>
+          <h3>Manage Your Collection</h3>
           <p>
-            Connect with wallet, discover, buy NFTs, sell you NFTs for money.
+          Keep track of your NFT portfolio by managing your purchases and sales. 
           </p>
         </div>
 

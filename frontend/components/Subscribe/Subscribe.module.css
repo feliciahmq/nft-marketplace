@@ -68,6 +68,7 @@
 .subscribe_box_left_input_icon {
   font-size: 2rem;
   color: var(--shadow-dark-color);
+  cursor: pointer;
 }
 
 @media screen and (min-device-width: 320px) and 
