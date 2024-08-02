@@ -11,6 +11,7 @@ import {
   Collection,
   FollowerTab,
   AudioLive,
+  Slider,
 } from '@/components/componentIndex';
 
 const Index = () => {
@@ -25,6 +26,8 @@ const Index = () => {
       />
       <AudioLive />
       <FollowerTab />
+
+      <Slider />
       <Title 
         heading="New Collections"
         paragraph="Browse NFTs by collections."
