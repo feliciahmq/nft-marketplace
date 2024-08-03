@@ -12,6 +12,7 @@ import {
   FollowerTab,
   AudioLive,
   Slider,
+  Brand,
 } from '@/components/componentIndex';
 
 const Index = () => {
@@ -45,6 +46,7 @@ const Index = () => {
       />
       <Category />
       <Subscribe />
+      <Brand />
     </div>
   );
 };
