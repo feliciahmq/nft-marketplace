@@ -42,7 +42,7 @@
 }
 
 .followerTab_tabs_btn button:hover {
-  background-color: transparent;
+  background-color: var(--shadow-light-color);
   color: var(--icons-color);
 }
 
@@ -71,7 +71,7 @@
 }
 
 .followerTab_tabs_btn a:hover {
-  background-color: var(--icons-color);
+  background-color: transparent;
   color: var(--main-bg-color);
 }
 

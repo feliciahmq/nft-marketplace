@@ -25,7 +25,7 @@
 
 .category_box_img {
   width: 100%;
-  height: auto;
+  height: 100px;
   object-fit: cover;
   border-radius: 1rem;
 }

@@ -7,10 +7,12 @@
   transition: all .3s ease-in;
   border-radius: 2rem;
   padding-bottom: 1rem;
+  box-shadow: var(--box-shadow);
+
 }
 
 .sliderCard_box:hover {
-  box-shadow: var(--box-shadow);
+  transform: scale(1.1);
 }
 
 .sliderCard_box_img_img {

@@ -1,5 +1,4 @@
 import Style from './FollowerTabCard.module.css';
-import images from '@/img';
 
 import { useState } from 'react';
 import Image from 'next/image';
@@ -29,7 +28,7 @@ const FollowerTabCard = ({ i, el }) => {
       <div className={Style.followerTabCard_box}>
         <div className={Style.followerTabCard_box_img}>
           <Image  
-            src={images.creatorbackground1}
+            src={el.background}
             alt='Profile Background'
             width={360}
             height={180}
@@ -40,7 +39,7 @@ const FollowerTabCard = ({ i, el }) => {
 
         <div className={Style.followerTabCard_box_profile}>
           <Image 
-            src={images.user2}
+            src={el.user}
             alt='Profile Picture'
             width={80}
             height={80}

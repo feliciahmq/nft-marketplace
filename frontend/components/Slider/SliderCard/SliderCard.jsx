@@ -5,14 +5,14 @@ import LikeProfile from '../../LikeProfile/LikeProfile';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 
-const SliderCard = () => {
+const SliderCard = ({el, i}) => {
   return (
     <motion.div className={Style.sliderCard}>
       <div className={Style.sliderCard_box}>
         <motion.div className={Style.sliderCard_box_img}>
           <Image 
             className={Style.sliderCard_box_img_img}
-            src={images.creatorbackground10}
+            src={el.background}
             alt='slider profile'
             width={260}
             height={150}
