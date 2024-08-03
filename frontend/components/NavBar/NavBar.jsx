@@ -76,13 +76,15 @@ const NavBar = () => {
 
         <div className={Style.navbar_container_left}>
           <div className={Style.logo}>
-            <Image 
-              src={images.logo} 
-              alt="NFT Logo" 
-              width={100} 
-              height={100}
-              priority
-            />
+            <Link href="/">
+              <Image 
+                src={images.logo} 
+                alt="NFT Logo" 
+                width={100} 
+                height={100}
+                priority
+              />
+            </Link>
           </div>
           <div className={Style.navbar_container_left_box_input}>
             <div className={Style.navbar_container_left_box_input_box}>
@@ -98,7 +100,7 @@ const NavBar = () => {
             <p onClick={(e) => openMenu(e)}>Discover</p>
             {discover && (
               <div className={Style.navbar_container_right_discover_box}>
-                <Discover />
+                <Discover setDiscover={setDiscover}/>
               </div>
             )}
           </div>

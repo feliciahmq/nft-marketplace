@@ -1,0 +1,21 @@
+.NFTCardTwo { 
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+}
+
+.NFTCardTwo_box {
+  display: grid;
+  cursor: pointer;
+  transition: all .3s ease-in;
+  border-radius: 1rem;
+}
+
+@media screen and (max-wdith: 35em) {
+  .NFTCardTwo { 
+    width: 90%;
+    grid-template-columns: 1fr;
+  }
+}

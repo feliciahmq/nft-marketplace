@@ -1,7 +1,11 @@
 import Style from './Discover.module.css';
 import Link from 'next/link';
 
-const Discover = () => {
+const Discover = ({ setDiscover }) => {
+  const handleItemClick = () => {
+    setDiscover(false); 
+  };
+
   const discover = [
     {
       name: "Collection",
@@ -36,11 +40,11 @@ const Discover = () => {
   return (
     <div>
       {discover.map((el, i) => (
-        <div key = {i + 1} className={Style.discover}>
-          <Link href={{ pathname: `${el.link}` }}>
-            {el.name}
-          </Link>
-        </div>  
+        <Link href={`/${el.link}`} key={i} onClick={handleItemClick} passHref>
+        <div className={Style.discover}>
+          {el.name}
+        </div>
+      </Link> 
       ))}
     </div>
   );

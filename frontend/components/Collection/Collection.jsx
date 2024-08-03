@@ -163,7 +163,7 @@ const Collection = () => {
         news && (
           <div className={Style.collection_box}>
             {NewsArray.map((el, i) => (
-              <DaysComponents key={i+1} /> 
+              <DaysComponents key={i+1} i={i} el={el}/> 
             ))}
           </div>
         )
