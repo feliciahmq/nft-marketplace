@@ -42,8 +42,9 @@ const NFTCardTwo = ({ NFTData }) => {
               src={el}
               alt='NFT'
               width={250}
-              height={230}
+              height={250}
               objectFit='cover'
+              className={Style.NFTCardTwo_box_img_img}
             /> 
           </div>
 
@@ -58,7 +59,7 @@ const NFTCardTwo = ({ NFTData }) => {
           <div className={Style.NFTCardTwo_box_price}>
             <div className={Style.NFTCardTwo_box_price_box}>
               <small>Current Bid</small>
-              <p>1{i + 5}</p>
+              <p>1{i + 5}.000 ETH</p>
             </div>
             <p className={Style.NFTCardTwo_box_price_stock}>
               <MdTimer />
