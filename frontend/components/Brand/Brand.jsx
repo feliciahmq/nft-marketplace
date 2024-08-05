@@ -12,8 +12,9 @@ const Brand = () => {
           <Image 
             src={images.logo}
             alt='brand logo'
-            width={100}
-            height={100}
+            width={180}
+            height={180}
+            className={Style.brand_box_left_logo}
           />
           <h1>Earn free crypto with NFTCo</h1>
           <p>A creative agency that lead and inspire.</p>

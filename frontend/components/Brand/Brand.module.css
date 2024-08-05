@@ -13,6 +13,10 @@
   align-items: center;
 }
 
+.brand_box_left_logo {
+  margin-bottom: -5rem;
+}
+
 .brand_box_left h1 {
   font-size: 4rem;
   line-height: 1.3;
