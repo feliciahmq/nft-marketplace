@@ -4,6 +4,12 @@
   height: auto;
   overflow: hidden;
 }
+
+.banner_img {
+  width: 100%;
+  height: auto;
+}
+
 .banner_img_mobile {
   display: none;
 }

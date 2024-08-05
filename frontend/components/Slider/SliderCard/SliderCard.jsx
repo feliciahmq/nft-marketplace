@@ -14,9 +14,11 @@ const SliderCard = ({el, i}) => {
             className={Style.sliderCard_box_img_img}
             src={el.background}
             alt='slider profile'
-            width={260}
-            height={150}
-            objectFit='cover'
+            style={{ 
+              width: '100%', 
+              height: '150px', 
+              objectFit: 'cover' 
+            }}
           />
         </motion.div>
         <div className={Style.sliderCard_box_title}>

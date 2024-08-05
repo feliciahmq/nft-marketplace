@@ -30,9 +30,12 @@ const FollowerTabCard = ({ i, el }) => {
           <Image  
             src={el.background}
             alt='Profile Background'
-            width={360}
-            height={180}
-            objectFit='cover'
+            style={{ 
+              width: '100%', 
+              height: '180px', 
+              objectFit: 'cover' 
+            }}
+
             className={Style.followerTabCard_box_img_img}
           />
         </div>

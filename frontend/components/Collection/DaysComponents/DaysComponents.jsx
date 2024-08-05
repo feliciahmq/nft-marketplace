@@ -13,9 +13,11 @@ const DaysComponents = ({ el, i }) => {
             src={el.background} 
             className={Style.daysComponent_box_img_img}
             alt='Profile Background'
-            width={375}
-            height={200}
-            objectFit='cover'
+            style={{ 
+              width: '100%', 
+              height: '200px', 
+              objectFit: 'cover' 
+            }}
           />
         </div>
 
@@ -23,26 +25,33 @@ const DaysComponents = ({ el, i }) => {
           <Image 
             src={images.creatorbackground2}
             alt="profile"
-            width={120}
-            height={120}
             className={Style.daysComponent_box_img_1}
             objectFit='cover'
+            style={{ 
+              width: '100%', 
+              height: '120px', 
+              objectFit: 'cover' 
+            }}
           />
           <Image 
             src={images.creatorbackground2}
             alt="profile"
-            width={120}
-            height={120}
             className={Style.daysComponent_box_img_2}
-            objectFit='cover'
+            style={{ 
+              width: '100%', 
+              height: '120px', 
+              objectFit: 'cover' 
+            }}
           />
           <Image 
             src={images.creatorbackground2}
             alt="profile"
-            width={120}
-            height={120}
             className={Style.daysComponent_box_img_3}
-            objectFit='cover'
+            style={{ 
+              width: '100%', 
+              height: '120px', 
+              objectFit: 'cover' 
+            }}
           />
         </div>
 
@@ -55,7 +64,9 @@ const DaysComponents = ({ el, i }) => {
                 alt='profile'
                 width={30}
                 height={30}
-                objectFit='cover'
+                style={{ 
+                  objectFit: 'cover' 
+                }}
                 className={Style.daysComponent_box_title_info_profile_img}
               />
 
