@@ -8,8 +8,8 @@ import { AiFillHeart, AiOutlineHeart } from 'react-icons/ai';
 import { MdVerified, MdTimer } from 'react-icons/md';
 
 const NFTCardTwo = ({ NFTData }) => {
-  const [like, setLike] = useState(false);
-  const [likeInc, setLikeInc] = useState(21);
+  const [like, setLike] = useState(true);
+  const [likeInc, setLikeInc] = useState(23);
 
   const likeNFT = () => {
     if (!like) {

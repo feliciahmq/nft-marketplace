@@ -23,7 +23,7 @@
 
 .audioCard_box_like {
   background-color: var(--icons-color);
-  color: var(--shadow-dark-color);
+  color: var(--main-bg-color);
   display: flex;
   align-items: center;
   gap: .7rem;
@@ -35,7 +35,7 @@
 }
 
 .audioCard_box_like_icon {
-  color: red;
+  color: var(--main-bg-color);
   font-size: 2rem;
 }
 
