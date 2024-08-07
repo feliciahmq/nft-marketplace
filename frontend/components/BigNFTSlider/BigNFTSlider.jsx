@@ -170,7 +170,11 @@ const BigNFTSlider = () => {
               src={sliderData[idNumber].nftImage} 
               alt="NFT Image" 
               className={Style.bigNFTSlider_box_right_box_img} 
-              height={750}
+              style={{ 
+                width: '700px', 
+                height: '700px', 
+                objectFit: 'cover' 
+              }}
             />
             <div className={Style.bigNFTSlider_box_right_box_like}>
               <AiFillHeart />
