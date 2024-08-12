@@ -17,11 +17,11 @@ const HelpCenter = ({ setHelp }) => {
     },
     {
       name: "Sign Up",
-      link: "sign-up",
+      link: "/",
     },
     {
       name: "Sign In",
-      link: "sign-in",
+      link: "/",
     },
     {
       name: "Subscription",

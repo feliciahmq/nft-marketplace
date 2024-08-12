@@ -1,0 +1,52 @@
+.subcriptionBox {
+  border: 1px solid var(--icons-color);
+  padding: 2rem;
+  border-radius: 1rem;
+  position: relative;
+  transition: all .3s ease-in;
+  cursor: pointer;
+}
+
+.subcriptionBox:hover {
+  box-shadow: var(--box-shadow);
+}
+
+.subcriptionBox_box_span {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.subcriptionBox_box_small {
+  position: absolute;
+  right: 3rem;
+  font-size: 1.2rem;
+  background-color: var(--icons-color);
+  color: var(--main-bg-color);
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+}
+
+.subcriptionBox_box_price {
+  font-size: 2.5rem;
+  line-height: 0;
+  font-weight: 700;
+}
+
+.subcriptionBox_box_info {
+  margin: 4rem 0;
+}
+
+.subcriptionBox_box_info_para {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 0;
+}
+
+@media screen and (max-width: 35em) {
+  .subcriptionBox_box_info_para {
+    font-size: 1rem;
+  }
+}
