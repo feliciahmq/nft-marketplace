@@ -1,7 +1,11 @@
 import Style from './HelpCenter.module.css';
 import Link from 'next/link';
 
-const HelpCenter = () => {
+const HelpCenter = ({ setHelp }) => {
+  const handleItemClick = () => {
+    setHelp(false); 
+  };
+
   const helpCenter = [
     {
       name: "About",
@@ -28,7 +32,7 @@ const HelpCenter = () => {
   return (
     <div className={Style.box}>
       {helpCenter.map((el, i) => (
-        <Link href={{ pathname: `${el.link}` }}>
+        <Link href={{ pathname: `${el.link}` }} key={i} onClick={handleItemClick} passHref>
           <div className={Style.helpCenter}>
             {el.name}
           </div>

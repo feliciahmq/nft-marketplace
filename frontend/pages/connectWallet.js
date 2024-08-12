@@ -53,7 +53,7 @@ const connectWallet = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default connectWallet
+export default connectWallet;

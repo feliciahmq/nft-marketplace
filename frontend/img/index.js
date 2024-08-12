@@ -47,6 +47,10 @@ import provider1 from './provider1.png';
 import provider2 from './provider2.png';
 import provider3 from './provider3.png';
 import provider4 from './provider4.png';
+import founder1 from './founder1.png';
+import founder2 from './founder2.png';
+import founder3 from './founder3.png';
+import founder4 from './founder4.png';
 
 export default {
   collection,
@@ -98,4 +102,8 @@ export default {
   provider2,
   provider3,
   provider4,
+  founder1,
+  founder2,
+  founder3,
+  founder4,
 };
