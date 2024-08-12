@@ -15,7 +15,6 @@ const Brand = () => {
             width={180}
             height={180}
             className={Style.brand_box_left_logo}
-            style={{ filter: 'invert()' }}
           />
           <h1>Earn free crypto with NFTCo</h1>
           <p>A creative agency that lead and inspire.</p>

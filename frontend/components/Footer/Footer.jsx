@@ -24,7 +24,6 @@ const Footer = () => {
             alt="footer logo" 
             height={100}
             width={100}
-            style={{ filter: 'invert()' }}
             />
             <p>
               Discover, collect, and trade unique digital assets with ease on NFTCo. Stay connected with us for updates and new releases, and follow us on our social media channels for the latest news. 
