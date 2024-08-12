@@ -6,6 +6,14 @@
   margin-top: 2rem;
 }
 
+.form_box_input input {
+  color: var(--icons-color);
+}
+
+.form_box_input textarea {
+  color: var(--icons-color);
+}
+
 .form_box_input label {
   display: block;
   width: 100%;

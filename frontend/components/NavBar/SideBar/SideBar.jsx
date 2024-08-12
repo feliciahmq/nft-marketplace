@@ -106,6 +106,7 @@ const SideBar = ({ setOpenSideMenu }) => {
           alt="logo"
           width={150} 
           height={150} 
+          style={{ filter: 'invert()' }}
         />
         <p>
           Discover the most coolest articles on the topics of NFT & share them

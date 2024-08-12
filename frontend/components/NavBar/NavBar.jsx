@@ -82,6 +82,7 @@ const NavBar = () => {
                 alt="NFT Logo" 
                 width={100} 
                 height={100}
+                style={{ filter: 'invert()' }}
                 priority
               />
             </Link>

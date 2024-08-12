@@ -15,6 +15,7 @@
 
 .brand_box_left_logo {
   margin-bottom: -5rem;
+  filter: invert();
 }
 
 .brand_box_left h1 {

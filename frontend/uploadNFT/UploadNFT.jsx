@@ -64,7 +64,7 @@ const UploadNFT = () => {
         image={images.upload}
       />
 
-      <div className={Style.upload_box}>
+      {true && (<div className={Style.upload_box}>
         <div className={FormStyle.form_box_input}>
             <label htmlFor='nft'>Item Name</label>
             <input 
@@ -204,8 +204,7 @@ const UploadNFT = () => {
             classStyle={Style.upload_box_btn_style}
           />
         </div>
-
-      </div>
+      </div>)}
     </div>
   );
 };

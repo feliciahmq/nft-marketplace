@@ -35,6 +35,11 @@
   border: none;
   outline: none;
   background-color: transparent;
+  color: var(--icons-color);
+}
+
+.navbar_container_left_box_input_box input::placeholder{
+  color: var(--icons-color);
 }
 
 .search_icon {
