@@ -43,6 +43,10 @@ import musiceWave from "./musicwave.png";
 import update from "./update.png";
 import earn from './eran.png';
 import upload from './upload.png';
+import provider1 from './provider1.png';
+import provider2 from './provider2.png';
+import provider3 from './provider3.png';
+import provider4 from './provider4.png';
 
 export default {
   collection,
@@ -90,4 +94,8 @@ export default {
   zgcmq,
   earn,
   upload,
+  provider1,
+  provider2,
+  provider3,
+  provider4,
 };
