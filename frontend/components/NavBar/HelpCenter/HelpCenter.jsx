@@ -9,7 +9,7 @@ const HelpCenter = () => {
     },
     {
       name: "Contact Us",
-      link: "contact-us",
+      link: "contactUs",
     },
     {
       name: "Sign Up",

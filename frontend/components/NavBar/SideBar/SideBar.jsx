@@ -42,8 +42,12 @@ const SideBar = ({ setOpenSideMenu }) => {
       link: "account"
     },
     {
+      name: "Upload NFT",
+      link: "uploadNFT"
+    },
+    {
       name: "Connect Wallet",
-      link: "connect-wallet"
+      link: "connectWallet"
     },
     {
       name: "Blog",
@@ -58,7 +62,7 @@ const SideBar = ({ setOpenSideMenu }) => {
     },
     {
       name: "Contact Us",
-      link: "contact-us",
+      link: "contactUs",
     },
     {
       name: "Sign Up",
